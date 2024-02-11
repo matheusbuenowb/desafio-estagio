@@ -51,4 +51,7 @@ Desenvolver uma aplicação frontend que exiba uma lista de missões e personage
 - **Documentação:** clareza nas instruções de configuração e uso do projeto.
 - **Extras:** qualquer funcionalidade ou característica extra será considerada positivamente.
 
+### Deadline (Prazo de entrega)
+- **Não existe prazo determinado para a entrega do projeto:** entretanto, recomendamos que faça-o tão logo possível,  com certeza vamos ler e avaliar seu código, mas suponhamos que você só consiga nos enviar seu teste após outros 5 candidatos serem aprovados no teste e nas demais fases, isso significa que seu teste precisará ser MUITO bom para abrirmos uma exceção e colocar você como o nosso "sexto elemento" =) 
+
 Boa sorte! Estamos ansiosos para ver as soluções incríveis que você irá criar.
