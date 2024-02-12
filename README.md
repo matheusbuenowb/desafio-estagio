@@ -6,6 +6,8 @@ Bem-vindos ao nosso processo seletivo para vagas de estágio em desenvolvimento!
 
 ## Desafios
 
+Abaixo você encontrará os desafios para dev backend e dev frontend, faça o teste que for mais confortável para você, note que o teste de frontend ainda inclui mais uma escolha: mobile ou web, ambos usando o framework React.
+
 ### Dev Backend (Golang) - O Guardião dos Dados
 ![Guardião dos dados](https://digitalsys-cdn.nyc3.cdn.digitaloceanspaces.com/desafio-estagio/guardiao-dados-2.png)
 
