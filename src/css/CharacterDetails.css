@@ -1,0 +1,53 @@
+.character-details {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .character-details h2 {
+    color: #333;
+    font-size: 28px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 10px;
+  }
+  
+  .character-details img {
+    display: block;
+    margin: 0 auto 20px;
+    max-width: 50%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .character-details p {
+    color: #555;
+    font-size: 16px;
+    margin-bottom: 15px;
+    line-height: 1.5;
+  }
+  
+  .character-details strong {
+    font-weight: bold;
+  }
+  
+  .character-details p:first-child {
+    margin-top: 0;
+  }
+  .character-details p {
+    color: #555;
+    font-size: 16px;
+    margin-bottom: 15px;
+    line-height: 1.5;
+    position: relative;
+  }
+  
+  .character-details p::before {
+    content: "•"; /* Adiciona um ponto antes de cada parágrafo */
+    color: #555; /* Cor do ponto */
+    font-size: 16px; /* Tamanho do ponto */
+    margin-right: 10px; /* Espaçamento entre o ponto e o texto */
+    position: absolute; /* Posicionamento absoluto em relação ao elemento pai */
+    left: -15px; /* Posiciona o ponto à esquerda do texto */
+  }

@@ -1,14 +1,22 @@
-// src/components/CharacterDetails.js
-
 import React from 'react';
+import '../css/CharacterDetails.css';
 
-function CharacterDetails() {
+const CharacterDetails = ({ character }) => {
   return (
-    <div>
-      <h2>Detalhes do Personagem</h2>
-      {/* Aqui você pode adicionar o código para exibir os detalhes do personagem */}
+    <div className="character-details">
+      <h2>{character.name}</h2>
+      <img src={character.image} alt={character.name} />
+      <p><strong>Profissão:</strong> {character.profession}</p>
+      <p><strong>Descrição:</strong> {character.description}</p>
+      <p><strong>Idade:</strong> {character.idade}</p>
+      <p><strong>Raça:</strong> {character.race}</p>
+      <p><strong>Local de Origem:</strong> {character.origin}</p>
+      <p><strong>Aparência Física:</strong> {character.appearance}</p>
+      <p><strong>Armas e Habilidades:</strong> {character.weaponsAndAbilities}</p>
+      <p><strong>Companheiros:</strong> {character.companions}</p>
+      <p><strong>História Pessoal:</strong> {character.personalHistory}</p>
     </div>
   );
-}
+};
 
 export default CharacterDetails;
