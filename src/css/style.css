@@ -1,0 +1,50 @@
+body {
+    background-color: #ff9900;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+  }
+
+.container-inicial h1{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh; 
+}
+
+.container-inicial p{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.container-inicial button{
+    margin-bottom: 10px;
+    font-size: 20px;
+    width: 200px; /* Define a largura do botão */
+    height: 50px; /* Define a altura do botão */
+    margin-left: 20px;
+
+    background-color: #ff0080; /* Cor de fundo azul */
+    color: #ffffff; /* Cor do texto branca */
+    border: 2px solid #007bff; /* Borda sólida azul */
+    border-radius: 50px; /* Raio da borda de 8 pixels */
+    background: linear-gradient(to right, #007bff, #0056b3); /* Gradiente azul */
+}
+
+.container-inicial button:hover {
+    background-color: #000000; /* Cor de fundo ao passar o mouse */
+    color: #ffffff; /* Cor do texto ao passar o mouse */
+    background: linear-gradient(to right, #000000, #daecff); /* Gradiente azul */
+    cursor: pointer;
+}
+
+.container-inicial button:focus{
+    outline: none; /* Remove a borda padrão do foco */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Adiciona uma sombra ao focar */
+}
