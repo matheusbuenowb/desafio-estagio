@@ -4,8 +4,16 @@ body {
     padding: 0;
     display: flex;
     justify-content: center;
-    height: 40vh;
+    height: 10vh;
+    /*background-image: url('../data/Principal.png');
+    background-size: cover; /* Ajusta o tamanho da imagem para cobrir todo o elemento */
   }
+
+
+
+.titulo{
+    padding-left: 25px;
+}
 
 .container-inicial h1{
     margin: 0;
@@ -31,7 +39,7 @@ button{
 
     background-color: #ff0080; /* Cor de fundo azul */
     color: #ffffff; /* Cor do texto branca */
-    border: 2px solid #007bff; /* Borda sólida azul */
+    border: 2px solid #318ef2; /* Borda sólida azul */
     border-radius: 50px; /* Raio da borda de 8 pixels */
     background: linear-gradient(to right, #007bff, #0056b3); /* Gradiente azul */
 }
@@ -39,6 +47,7 @@ button{
 button:hover {
     background-color: #000000; /* Cor de fundo ao passar o mouse */
     color: #ffffff; /* Cor do texto ao passar o mouse */
+    border: 2px solid #777777; /* Borda sólida azul */
     background: linear-gradient(to right, #000000, #daecff); /* Gradiente azul */
     cursor: pointer;
 }
@@ -49,3 +58,9 @@ button:focus{
 }
 
 
+
+@media screen and (max-width: 768px) {
+    .titulo {
+        text-align: center;
+    }
+  }

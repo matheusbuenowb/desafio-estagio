@@ -10,8 +10,10 @@
     flex-direction: column; /* Garante que os elementos filhos sejam dispostos verticalmente */
     align-items: center; /* Centraliza os elementos filhos horizontalmente (imagens, texto, etc.) */
     /*pensei que seria necessário aplicar uma estilização individualmente, n foi preciso =D */
-    
   }
+
+
+
   
   .character-card:hover {
     transform: translateY(-5px);
@@ -27,6 +29,12 @@
   
     max-height: 300px; /* Defina uma altura máxima para a imagem */
     overflow: hidden; /* Oculta qualquer parte da imagem que ultrapasse os limites do container */  
+}
+
+
+.character-card img:hover{
+  transform: scale(1.05); /* Aumenta o tamanho da imagem em 10% */
+  transition: 0.5s;
 }
   
   .character-card h2{

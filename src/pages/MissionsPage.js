@@ -1,14 +1,19 @@
-// src/pages/MissionDetailsPage.js
+
 
 import React from 'react';
-import MissionDetails from '../components/MissionDetails';
+import MissionList from '../components/MissionList'
+import missionsData from '../data/missionData';
+//import { Link } from 'react-router-dom';
+import "../css/style.css"
 
 function MissionsPage() {
   return (
-    <div>
-      <h1>Página da Missão</h1>
-      <MissionDetails />
-    </div>
+    
+       <div className="container-inicial">
+        {missionsData.map(mission => (
+          <MissionList key={mission.id} mission={mission} />
+        ))}
+      </div>
   );
 }
 

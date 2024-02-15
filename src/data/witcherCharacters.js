@@ -3,8 +3,8 @@
 const witcherCharacters = [
     {
       id: 1,
-      name: 'Geralt of Rivia',
-      profession: 'Witcher',
+      name: 'Geralt de Rivia',
+      profession: 'Feiticeiro',
       description: 'O protagonista da série, um bruxo que caça monstros por dinheiro.',
       image: require('C:\\Users\\mathe\\Projeto_matheusbuenowb\\src\\data\\Geralt.png'), // URL da imagem do personagem
       idade: `A idade exata de Geralt é difícil de determinar, devido ao processo de mutação que os bruxos passam.
@@ -29,8 +29,8 @@ const witcherCharacters = [
     },
     {
       id: 2,
-      name: 'Yennefer of Vengerberg',
-      profession: 'Sorceress',
+      name: 'Yennefer de Vengerberg',
+      profession: 'Feiticeira',
       description: 'Uma poderosa feiticeira e interesse amoroso de Geralt.',
       image: require('C:\\Users\\mathe\\Projeto_matheusbuenowb\\src\\data\\Yennefer.png'),
       race: `Humana (feiticeira)`,
@@ -52,7 +52,7 @@ const witcherCharacters = [
     {
       id: 3,
       name: 'Ciri',
-      profession: 'Witcher-in-Training',
+      profession: 'Princessa de Cirilla',
       description: 'A princesa de Cintra e uma guerreira treinada por Geralt.',
       image: require('C:\\Users\\mathe\\Projeto_matheusbuenowb\\src\\data\\Ciri.png'),
       idade: `Idade desconhecida, Ciri é uma jovem graciosa e determinada, com cabelos loiros e olhos verdes expressivos.`,

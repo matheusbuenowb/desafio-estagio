@@ -11,14 +11,12 @@ function CharactersPage() {
 
   return (
     <div>
-      <h1>Lista de Personagens do The Witcher</h1>
+      <h1 className='titulo'>Lista de Personagens</h1>
       <div className="character-list">
         {witcherCharacters.map(character => (
           <CharacterCard key={character.id} character={character} />
         ))}
       </div>
-
-      <button> Página Principal</button>
     </div>
   );
 }

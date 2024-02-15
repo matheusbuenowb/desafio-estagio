@@ -3,22 +3,39 @@
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    position: absolute;
+    animation: slideIn 2s forwards; /* Inicia a animação slideIn */
+
   }
   
+  @keyframes slideIn {
+    from {
+      left: -1000px; /* Define a posição inicial fora da tela */
+    }
+    to {
+      left: 0; /* Define a posição final na tela */
+    }
+  }
+
+
   .character-details h2 {
     color: #333;
     font-size: 28px;
     margin-bottom: 20px;
     border-bottom: 2px solid #ccc;
     padding-bottom: 10px;
+    margin-left: 40px;
   }
   
   .character-details img {
+    padding-top: 80px;
     display: block;
     margin: 0 auto 20px;
-    max-width: 50%;
+    max-width: 100%;
     height: auto;
     border-radius: 8px;
+    
   }
   
   .character-details p {
@@ -26,6 +43,7 @@
     font-size: 16px;
     margin-bottom: 15px;
     line-height: 1.5;
+    margin-left: 40px;
   }
   
   .character-details strong {
@@ -51,3 +69,31 @@
     position: absolute; /* Posicionamento absoluto em relação ao elemento pai */
     left: -15px; /* Posiciona o ponto à esquerda do texto */
   }
+
+
+  /* Adiciona regras de mídia para telas menores */
+@media screen and (max-width: 768px) {
+  .character-details {
+    padding: 10px; /* Reduz o preenchimento */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .character-details img {
+    padding-top: 10px; /* Reduz o espaçamento acima da imagem */
+    margin-bottom: 10px; /* Reduz o espaçamento abaixo da imagem */
+  }
+
+  .character-details h2 {
+    text-align: center;
+  }
+
+  .character-details p {
+    margin-left: 0; /* Remove o espaçamento à esquerda */
+  }
+
+  .character-details p::before {
+    left: 0; /* Remove o ponto para a esquerda */
+  }
+}

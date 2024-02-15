@@ -5,8 +5,9 @@ import './css/style.css';
 import { useEffect, useState } from 'react';
 import { Link} from 'react-router-dom';
 import Footer from './components/Footer';
+import Navbar from './components/Navbar';
 
-
+import PrincipalImage from './data/Principal.png';
 
 
 function Home() {
@@ -39,7 +40,12 @@ function Home() {
 
 
   return (
+
     <div className='container-inicial'>
+
+   
+
+
       <h1 >O Artesão das Ilusões</h1>
       <p>Bem-vindo ao mundo the Witcher! Escolha uma das opções: </p>
       

@@ -17,6 +17,7 @@ function CharacterCard({ character }) {
       </Link>
     </div>
   );
+
 }
 
 export default CharacterCard;

@@ -4,23 +4,24 @@ import './css/index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+//import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 //import Home from './Home';
 //import LoginPage from './LoginPage';
-import CharacterDetailsPage from './pages/CharacterDetailsPage';
-import CharacterPage from './pages/CharacterPage';
-import MissionDetailsPage from './pages/MissionDetailsPage';
-import MissionPage from './pages/MissionsPage';
-import Home from './Home';
-import CharacterDetails from './components/CharacterDetails';
-import CharacterList from './components/CharacterList';
-import MissionDetails from './components/MissionDetails';
-import MissionList from './components/MissionList';
+//import CharacterDetailsPage from './pages/CharacterDetailsPage';
+//import CharacterPage from './pages/CharacterPage';
+//import MissionDetailsPage from './pages/MissionDetailsPage';
+//import MissionPage from './pages/MissionsPage';
+//import Home from './Home';
+//import CharacterDetails from './components/CharacterDetails';
+//import CharacterList from './components/CharacterList';
+//import MissionDetails from './components/MissionDetails';
+//import MissionList from './components/MissionList';
+//import Navbar from './components/Navbar';
 
 //Definição das rotas das páginas principais (Home, login, etc)
 
-const router = createBrowserRouter([
+/*const router = createBrowserRouter([
   {
     path: "/",
     element: <Home/>
@@ -29,7 +30,7 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <LoginPage/>
-  },*/
+  },
   {
     path: "/MissionDetailsPage",
     element: <MissionDetailsPage/>
@@ -63,8 +64,13 @@ const router = createBrowserRouter([
     path: "/CharacterDetails",
     element: <CharacterDetails/>
   },
+   {
+    path:"/Navbar",
+    element: <Navbar/>
+   }
 
 ])
+*/
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
