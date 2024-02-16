@@ -1,6 +1,8 @@
 # Pré-requisitos:
 
 * Node.js
+  
+# Instalação:
 
 Tendo o node.js instalado em sua máquinas, digite os seguintes comandos em um diretório desejado:
 
