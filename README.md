@@ -4,7 +4,7 @@
   
 # Instalação:
 
-- Siga corretamente os passos fornecidos, pois qualquer desvio pode resultar em mau funcionamento da aplicação
+- Peço que siga corretamente os passos fornecidos, pois qualquer desvio pode resultar em mau funcionamento da aplicação.
 
 Tendo o node.js instalado em sua máquinas, digite o seguinte comando:
 
