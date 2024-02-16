@@ -12,14 +12,14 @@
   }
 
   
-  .page:hover {
+.page:hover {
     transform: translateY(-5px);
     background-color: #000000;
     color: #ffffff;
     transition: all 0.3s ease;
-  }
+}
   
-  .page img {
+.page img {
     width: 55%;
     border-radius: 8px;
     margin-bottom: 10px;
@@ -29,19 +29,19 @@
 
 
 .page img:hover{
-  transform: scale(1.05); /* Aumenta o tamanho da imagem em 10% */
-  transition: 0.5s;
+    transform: scale(1.05); /* Aumenta o tamanho da imagem em 10% */
+    transition: 0.5s;
 }
   
-  .page h2{
+.page h2{
     justify-content: center;
     font-size: 18px;
     font-weight: bold;
     
-  }
+}
   
-  .page .character-description {
+.page .character-description {
     font-size: 14px;
     color: #666666;
-  }
+}
 

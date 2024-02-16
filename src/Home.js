@@ -31,7 +31,7 @@ function Home() {
     
     <div className='container-inicial'>
       <h1 >O Artesão das Ilusões</h1>
-      <p>Bem-vindo ao mundo the Witcher! Escolha uma das opções: </p>
+      <p>Bem-vindo ao mundo The Witcher! Escolha uma das opções: </p>
       <Link to="/characters">
         <button > Personagens</button>
       </Link>

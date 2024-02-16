@@ -10,7 +10,7 @@ const CharacterDetails = ({ character }) => {
       </div>
       <div>
         <h2>{character.name}</h2>
-          <p><strong>Ocupação:</strong> {character.profession}</p>
+          <p><strong>Papel:</strong> {character.profession}</p>
           <p><strong>Descrição:</strong> {character.description}</p>
           <p><strong>Idade:</strong> {character.age}</p>
           <p><strong>Raça:</strong> {character.race}</p>

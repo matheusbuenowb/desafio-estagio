@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+/* Tratamento de erros caso occorra */
+
 class ErrorBoundary extends Component {
   constructor(props) {
     super(props);
@@ -16,7 +18,7 @@ class ErrorBoundary extends Component {
 
   render() {
     if (this.state.hasError) {
-      // Você pode renderizar uma página de erro personalizada aqui
+      
       return <h1>Algo deu errado. Por favor, tente novamente mais tarde.</h1>;
     }
 

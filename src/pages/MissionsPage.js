@@ -21,7 +21,7 @@ function MissionsPage() {
     }
     
     window.addEventListener('resize', handleResize);
-    handleResize(); // Executa a verificação de altura ao carregar a página
+    handleResize(); 
 
     return () => {
       window.removeEventListener('resize', handleResize);

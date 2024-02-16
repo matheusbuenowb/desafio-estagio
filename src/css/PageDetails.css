@@ -7,28 +7,30 @@
     position: absolute;
     animation: slideIn 2s forwards; /* Inicia a animação slideIn */
 
-  }
+}
+
+/* Para a execução da animação nas telas referentes a detalhes*/
   
-  @keyframes slideIn {
-    from {
-      left: -2000px; /* Define a posição inicial fora da tela */
-    }
-    to {
-      left: 0; /* Define a posição final na tela */
-    }
+@keyframes slideIn {
+  from {
+    left: -2000px; /* Define a posição inicial fora da tela */
   }
+  to {
+    left: 0; /* Define a posição final na tela */
+  }
+}
 
 
-  .page-details h2 {
+.page-details h2 {
     color: #333;
     font-size: 28px;
     margin-bottom: 20px;
     border-bottom: 2px solid #ccc;
     padding-bottom: 10px;
     margin-left: 40px;
-  }
+}
   
-  .page-details img {
+.page-details img {
     padding-top: 80px;
     display: block;
     margin: 0 auto 20px;
@@ -36,38 +38,40 @@
     height: auto;
     border-radius: 8px;
     
-  }
+}
   
-  .page-details p {
+.page-details p {
     color: #555;
     font-size: 16px;
     margin-bottom: 15px;
     line-height: 1.5;
     margin-left: 40px;
-  }
+}
   
-  .page-details p:first-child {
+.page-details p:first-child {
     margin-top: 0;
-  }
-  .page-details p {
+}
+
+.page-details p {
     color: #555;
     font-size: 16px;
     margin-bottom: 15px;
     line-height: 1.5;
     position: relative;
-  }
-  
-  .page-details p::before {
+}
+
+.page-details p::before {
     content: "•"; /* Adiciona um ponto antes de cada parágrafo */
     color: #555; /* Cor do ponto */
     font-size: 16px; /* Tamanho do ponto */
     margin-right: 10px; /* Espaçamento entre o ponto e o texto */
     position: absolute; /* Posicionamento absoluto em relação ao elemento pai */
     left: -15px; /* Posiciona o ponto à esquerda do texto */
-  }
+}
 
 
   /* Responsividade para telas menores */
+  
 @media screen and (max-width: 768px) {
   .page-details {
     padding: 10px; /* Reduz o preenchimento */

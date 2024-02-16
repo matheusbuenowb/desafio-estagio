@@ -7,7 +7,7 @@ function CharacterList({ character }) {
     <div className="page">
       <h2>{character.name}</h2>
         <img src={character.image} alt={character.name} />
-        <p><strong>Profissão:</strong> {character.profession}</p>
+        <p><strong>Papel:</strong> {character.profession}</p>
         <p>{character.description}</p>
 
         <Link to ={`/characters/${character.id}`}>

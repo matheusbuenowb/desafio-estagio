@@ -5,11 +5,7 @@ body {
     display: flex;
     justify-content: center;
     height: 10vh;
-    /*background-image: url('../data/Principal.png');
-    background-size: cover; /* Ajusta o tamanho da imagem para cobrir todo o elemento */
-  }
-
-
+}
 
 .titulo{
    text-align: center;
@@ -33,21 +29,22 @@ body {
 button{
     margin-bottom: 10px;
     font-size: 20px;
-    width: 200px; /* Define a largura do botão */
-    height: 50px; /* Define a altura do botão */
+    width: 200px; 
+    height: 50px; 
     margin-left: 20px;
 
-    background-color: #ff0080; /* Cor de fundo azul */
-    color: #ffffff; /* Cor do texto branca */
-    border: 2px solid #318ef2; /* Borda sólida azul */
-    border-radius: 50px; /* Raio da borda de 8 pixels */
-    background: linear-gradient(to right, #007bff, #0056b3); /* Gradiente azul */
+    background-color: #ff0080; 
+    color: #ffffff; 
+    border: 2px solid #318ef2; 
+    border-radius: 50px; 
+    background: linear-gradient(to right, #007bff, #0056b3); /* Gradiente azul (efeito especial) */
 }
 
 button:hover {
-    background-color: #000000; /* Cor de fundo ao passar o mouse */
-    color: #ffffff; /* Cor do texto ao passar o mouse */
-    border: 2px solid #777777; /* Borda sólida azul */
+    /* Design de estilização ao passar o mouse em cima do botão */
+    background-color: #000000; 
+    color: #ffffff; 
+    border: 2px solid #777777; 
     background: linear-gradient(to right, #000000, #daecff); /* Gradiente azul */
     cursor: pointer;
 }
@@ -63,4 +60,4 @@ button:focus{
     .titulo {
         text-align: center;
     }
-  }
+}

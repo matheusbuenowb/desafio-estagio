@@ -8,8 +8,9 @@ import Home from './Home';
 import Navbar from './components/Navbar';
 import ErrorBoundary from './ErrorBoundary';
 
-function App() {
+/* Direcionamento de rotas possíveis na aplicação */
 
+function App() {
   return (
     <Router>
       <ErrorBoundary>

@@ -2,12 +2,12 @@ const witcherCharacters = [
     {
       id: 1,
       name: 'Geralt de Rivia',
-      profession: 'Feiticeiro',
+      profession: 'Feiticeiro.',
       description: 'O protagonista da série, um bruxo que caça monstros por dinheiro.',
-      image: require('./Geralt.png'), // URL da imagem do personagem
+      image: require('./img/Geralt.png'), // URL da imagem do personagem
       age: `A idade exata de Geralt é difícil de determinar, devido ao processo de mutação que os bruxos passam.
               No entanto, ele é considerado um bruxo experiente, com vários séculos de vida.`,
-      race: `Humano (mutado)`,
+      race: `Humano (mutado).`,
       origin: 'Kaer Morhen, uma fortaleza nas montanhas de Kaedwen, no mundo de The Witcher.',
       appearance: `Geralt é descrito como um homem alto e musculoso, com cabelos prateados
        e olhos amendoados distintamente amarelos, uma característica dos bruxos.`,
@@ -28,10 +28,10 @@ const witcherCharacters = [
     {
       id: 2,
       name: 'Yennefer de Vengerberg',
-      profession: 'Feiticeira',
+      profession: 'Feiticeira.',
       description: 'Uma poderosa feiticeira e interesse amoroso de Geralt.',
-      image: require('./Yennefer.png'),
-      race: `Humana (feiticeira)`,
+      image: require('./img/Yennefer.png'),
+      race: `Humana (feiticeira).`,
       origin: `Desconhecido (adotada por feiticeiras)`,
       age: `Idade desconhecida, Yennefer é uma das feiticeiras mais experientes e respeitadas.`,
       appearance: `Yennefer é descrita como uma mulher de beleza incomparável, com longos cabelos negros
@@ -50,12 +50,12 @@ const witcherCharacters = [
     {
       id: 3,
       name: 'Ciri',
-      profession: 'Princessa de Cirilla',
+      profession: 'Princessa de Cintra.',
       description: 'A princesa de Cintra e uma guerreira treinada por Geralt.',
-      image: require('./Ciri.png'),
+      image: require('./img/Ciri.png'),
       age: `Idade desconhecida, Ciri é uma jovem graciosa e determinada, com cabelos loiros e olhos verdes expressivos.`,
-      race: `Humana (com habilidades especiais)`,
-      origin: `Cintra, um reino no mundo de The Witcher`,
+      race: `Humana (com habilidades especiais).`,
+      origin: `Cintra, um reino no mundo de The Witcher.`,
       appearance: `Ciri é descrita como uma jovem graciosa e determinada, com cabelos loiros 
                    e olhos verdes expressivos. Sua aparência inocente esconde uma força 
                    interior e habilidades sobrenaturais.`,
@@ -69,7 +69,7 @@ const witcherCharacters = [
                         Ela é uma personagem central em muitos eventos cruciais no mundo de The Witcher, 
                         e sua jornada é uma mistura de aventura, intriga e autodescoberta.`
     },
-    // Adicione mais personagens conforme necessário
+    
   ];
   
   export default witcherCharacters;

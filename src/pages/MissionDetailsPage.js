@@ -7,7 +7,7 @@ import '../css/style.css';
 function MissionDetailsPage() {
 
   const { id } = useParams(); // Obtém o ID do parâmetro da URL
-  const mission = missionsData.find(char => char.id === parseInt(id)); // Encontra o personagem pelo ID
+  const mission = missionsData.find(char => char.id === parseInt(id)); // Encontra a missão pelo ID
 
   return (
     <div className="mission-list">  
