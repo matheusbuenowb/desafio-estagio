@@ -6,7 +6,7 @@
 
 - Peço que siga corretamente os passos fornecidos, pois qualquer desvio pode resultar em mau funcionamento da aplicação.
 
-Tendo o node.js instalado em sua máquinas, digite o seguinte comando:
+Tendo o node.js instalado em sua máquina, digite o seguinte comando:
 
 ```
 npx create-react-app the-witcher-front-end
