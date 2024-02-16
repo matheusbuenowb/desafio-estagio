@@ -9,20 +9,20 @@ Tendo o node.js instalado em sua máquinas, digite os seguintes comandos em um d
 ```
 npx create-react-app the-witcher-front-end
 ```
-Este comando é responsável por criar uma aplicação utilizando o framework React
+- Este comando é responsável por criar uma aplicação utilizando o framework React
 ```
 npm install react-router-dom
 ```
-Este comando irá instalar as dependências relacionadas as rotas do React
+- Este comando irá instalar as dependências relacionadas as rotas do React
+
+Em seguida, **substitua** a pasta *src* no diretório raiz do projeto pela pasta *src* fornecida neste repositório.
 
 
-
-Em seguida, substitua a pasta **src** no diretório raiz do projeto pela pasta **src** fornecida neste repositório.
-
-
-
-Fazendo isto, no diretório principal, faça o seguinte comando
+Depois de feito isto, no diretório principal do projeto, realize o seguinte comando:
 ```
 npm start
 ```
-E voilá, o aplicativo já está rodando 😀
+E voilá, o aplicativo já está rodando.
+
+A navegação na aplicação é bem simples e intutiva, portanto não achei necessário fornecer exemplos de como utiliza-lá.
+
