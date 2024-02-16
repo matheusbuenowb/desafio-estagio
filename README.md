@@ -17,7 +17,7 @@ Este comando irá instalar as dependências relacionadas as rotas do React
 
 
 
-Em seguida, substitua a pasta src no diretório raiz do projeto pela pasta src fornecida neste repositório.
+Em seguida, substitua a pasta **src** no diretório raiz do projeto pela pasta **src** fornecida neste repositório.
 
 
 
