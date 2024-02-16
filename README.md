@@ -22,7 +22,7 @@ Depois de feito isto, no diretório principal do projeto, realize o seguinte com
 ```
 npm start
 ```
-E voilá, o aplicativo já está rodando.
+E pronto, o aplicativo já está rodando 😀
 
 A navegação na aplicação é bem simples e intutiva, portanto não achei necessário fornecer exemplos de como utiliza-lá.
 
