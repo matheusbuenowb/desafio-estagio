@@ -28,5 +28,9 @@ npm start
 ```
 E pronto, o aplicativo já está rodando 😀
 
-A navegação na aplicação é bem simples e intutiva, portanto não achei necessário fornecer exemplos de como utiliza-lá.
+Fiz um vídeo demonstrando a aplicação:
+
+https://www.youtube.com/watch?v=Mu1FCKd0Nxs
+
+
 
