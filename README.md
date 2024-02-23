@@ -32,7 +32,7 @@ Fiz um vídeo demonstrando a aplicação:
 
 https://www.youtube.com/watch?v=Mu1FCKd0Nxs
 
-Também subi a aplicação a um servido. No entanto como é gratuito, ele não oferece certificações suficientes para uma conexão segura, o que inviabiliza o seu uso na maioria dos dispositivos:
+Também subi a aplicação a um servidor. No entanto como é gratuito, ele não oferece certificações suficientes para uma conexão segura, o que inviabiliza o seu uso na maioria dos dispositivos:
 
 http://the-witcher-project.great-site.net/
 
