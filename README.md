@@ -32,7 +32,7 @@ Fiz um vídeo demonstrando a aplicação:
 
 https://www.youtube.com/watch?v=Mu1FCKd0Nxs
 
-Também subi a aplicação a um servidor. No entanto como é gratuito, ele não oferece certificações suficientes para uma conexão segura, o que inviabiliza o seu uso na maioria dos dispositivos:
+Também subi a aplicação a um servidor. No entanto como é gratuito, ele não oferece certificações suficientes para uma conexão segura, o que inviabiliza o seu uso na maioria dos dispositivos. Além disso, a empresa do servidor não garante que ele fique disponível de forma definitiva, podendo sair fora do ar futuramente. Portanto, se o link não funcionar, é porque possivelmente a empresa suspendeu a hospedagem. 
 
 http://the-witcher-project.great-site.net/
 
