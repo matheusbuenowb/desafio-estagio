@@ -36,4 +36,6 @@ Também subi a aplicação a um servidor. No entanto como é gratuito, ele não 
 
 http://the-witcher-project.great-site.net/
 
+Obs: o site não está mais rodando a aplicação.
+
 
